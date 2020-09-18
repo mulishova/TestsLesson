@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd7cbcdc-3fc7-4e44-9eab-3f2bc406d594" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson6/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Lesson6.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Lesson6/ActionsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Lesson6/ActionsTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -33,6 +31,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1hYZ3EZqEQ60OQ9jZXBGRg9R5Pw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -49,7 +50,33 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="JUnit.ActionsTest">
+  <component name="RunManager" selected="JUnit.Task3Test">
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson6.Task2" />
+      <module name="TestsLesson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson6.Task3" />
+      <module name="TestsLesson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ActionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lesson6" />
       <extension name="coverage">
@@ -65,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActionsTest.sumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lesson6" />
+    <configuration name="Task2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestsLesson" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson6.*" />
@@ -74,15 +101,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Lesson6" />
-      <option name="MAIN_CLASS_NAME" value="Lesson6.ActionsTest" />
-      <option name="METHOD_NAME" value="sumTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="Lesson6.Task2Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActionsTest.sumWithExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lesson6" />
+    <configuration name="Task3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestsLesson" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson6.*" />
@@ -90,18 +116,19 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Lesson6" />
-      <option name="MAIN_CLASS_NAME" value="Lesson6.ActionsTest" />
-      <option name="METHOD_NAME" value="sumWithExceptionTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="Lesson6.Task3Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task3Test" />
+        <item itemvalue="Application.Task3" />
+        <item itemvalue="JUnit.Task2Test" />
+        <item itemvalue="Application.Task2" />
         <item itemvalue="JUnit.ActionsTest" />
-        <item itemvalue="JUnit.ActionsTest.sumTest" />
-        <item itemvalue="JUnit.ActionsTest.sumWithExceptionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +146,7 @@
       <workItem from="1600190894487" duration="4430000" />
       <workItem from="1600250427534" duration="4032000" />
       <workItem from="1600356857013" duration="3275000" />
-      <workItem from="1600438018533" duration="2965000" />
+      <workItem from="1600438018533" duration="7424000" />
     </task>
     <servers />
   </component>
@@ -135,10 +162,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="539" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1600190663819" />
-    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1600358694734">
+    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1600444641885">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1600358694734" />
+    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1600444641885" />
     <state x="393" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600360026939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -151,21 +178,21 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600438196348" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1600360159708">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1600446338556">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600360159708" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1600360159708">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600446338556" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1600446338556">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600360159708" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1600360159708">
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600446338556" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1600446338556">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600360159708" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1600360159708">
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600446338556" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1600446338556">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600360159708" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600446338556" />
   </component>
 </project>
